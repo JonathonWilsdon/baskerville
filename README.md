@@ -1,3 +1,3 @@
 #John Baskerville
 
-(https://jonathonwilsdon.github.io/baskerville/)
+[https://jonathonwilsdon.github.io/baskerville/]
