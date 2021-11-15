@@ -17,3 +17,106 @@ header, section, footer{
     width: 700px;
     margin: 0 auto;
 }
+
+h1, h2, h3, blockquote{
+    color: rgb(0, 107, 194);
+}
+
+p, blockquote{
+    margin-bottom: 1.5rem;
+    line-height: 1.4;
+}
+
+h1{
+    font-size: 5.653rem;
+    margin-top: 2em;
+}
+
+h2, h3{
+    font-size: 1.999rem;
+    margin: 3em 0 1em 0;
+}
+
+blockquote{
+    font-size: 1.414em;
+    font-style: italic;
+    hanging-punctuation: first;
+    text-indent: -0.6rem;
+}
+
+cite{
+    font-size: 0.8rem;
+    font-style: normal;
+    color: #333;
+}
+
+header h2{
+    font-size: 2.827rem;
+    font-style: italic;
+    margin-top: 0;
+    margin-bottom: 1.5em;
+}
+
+header p {
+    font-size: 1.3rem;
+}
+
+a{
+    color: rgb(0, 107, 194);
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(31, 34, 194);
+    border-bottom: 1px solid rgb(31, 34, 194);
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    background: #333;
+    padding: 2em 0;
+    font-size: .75rem;
+}
+
+nav ul{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+nav ul li{
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a{
+    color: #f7f7f7;
+    transition: all .3s ease-in-out;
+}
+
+nav ul li a:hover{
+    color: rgb(204, 85, 85);
+    border: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+hr{
+    margin: 100px 0;
+    height: 1px;
+    background-color: #333;
+    color: #333;
+    border: 0px;
+}
+
+footer{
+    text-align: center;
+    font-size: 0.75rem;
+    margin: 4rem auto;
+}
