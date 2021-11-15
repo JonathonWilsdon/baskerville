@@ -1,0 +1,19 @@
+/* -- CSS Reset --*/
+
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    line-height: 1em;
+}
+
+body{
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+header, section, footer{
+    max-width: 80%;
+    width: 700px;
+    margin: 0 auto;
+}
