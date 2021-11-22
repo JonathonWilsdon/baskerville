@@ -1,0 +1,192 @@
+/* -- CSS Reset --*/
+
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    line-height: 1em;
+}
+
+body{
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+header, section, footer{
+    max-width: 80%;
+    width: 700px;
+    margin: 0 auto;
+}
+
+.dark{
+    background-color: rgb(0, 107, 194);
+    color: #fff;
+    padding: 1.5rem 0 1.5rem;
+}
+
+.light{
+    background: #f3f3f3;
+    padding: .3rem 0;
+}
+
+
+.dark h1, h2{
+    color: #fff!important;
+}
+
+
+h1, h2, h3, blockquote{
+    color: rgb(0, 107, 194);
+}
+
+p, blockquote{
+    margin-bottom: 1.5rem;
+    line-height: 1.4;
+    font-family: montserrat,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+h1{
+    font-size: 5.653rem;
+    margin-top: 1em;
+    font-family: baskerville-urw,serif;
+font-weight: 700;
+font-style: normal;
+margin-bottom: .9rem;
+text-indent: 15px;
+}
+
+h2, h3{
+    font-size: 1.999rem;
+    margin: 3em 0 1em 0;
+    font-family: baskerville-urw,serif;
+font-weight: 400;
+font-style: normal;
+}
+
+blockquote{
+    font-size: 1.414em;
+    font-style: italic;
+    hanging-punctuation: first;
+    text-indent: -0.5rem;
+}
+
+cite{
+    font-size: 0.8rem;
+    font-style: normal;
+    color: #333;
+}
+
+header h2{
+    font-size: 2.827rem;
+    font-style: italic;
+    margin-top: 0;
+    margin-bottom: 1.5em;
+}
+
+header p {
+    font-size: 1.3rem;
+}
+
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin: 0 .6rem;
+}
+
+a:hover{
+    color: rgb(31, 34, 194);
+    border-bottom: 1px solid rgb(31, 34, 194);
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    background: #333;
+    padding: 2em 0;
+    font-size: .75rem;
+}
+
+nav ul{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+nav ul li{
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a{
+    color: #f7f7f7;
+    transition: all .3s ease-in-out;
+}
+
+nav ul li a:hover{
+    color: rgb(204, 85, 85);
+    border: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+footer{
+    text-align: center;
+    font-size: 0.75rem;
+    margin: 4rem auto;
+}
+
+img{
+    display: block;
+    margin: 4em 0;
+    padding: 0;
+    max-width: 100%;
+}
+
+.connections{
+    position: relative;
+    margin: 0 auto;
+  }
+  .connections ul{
+    margin: 0;
+    padding: 0;
+  }
+  .connections li{
+    margin: 0 10px;
+    padding: 0;
+    list-style: none;
+    display: inline-block;  
+  }
+  .connections a:link{
+    border-bottom: none;
+  }
+  .connections img,
+  .connections svg{
+    border: none;
+  }
+  .connections a:hover img,
+  .connections a:hover svg{
+    border-bottom: none;}
+  
+  .connections svg {
+        margin: 2em auto;}
+  
+  .connections a:hover svg path {
+        fill: #FFBBFC;
+        transition: all 0.2s ease-in-out;}
+  
+  footer .connections a:hover svg path {
+          fill:  #FFBBFC;
+          transition: all 0.2s ease-in-out;}
+  
+
+footer p{
+    margin-top: 2rem;
+}
