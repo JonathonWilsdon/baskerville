@@ -141,12 +141,7 @@ footer{
     margin: 4rem auto;
 }
 
-img{
-    display: block;
-    margin: 4em 0;
-    padding: 0;
-    max-width: 100%;
-}
+
 
 .connections{
     position: relative;
@@ -187,4 +182,19 @@ img{
 
 footer p{
     margin-top: 2rem;
+}
+
+@media only screen 
+    and (min-device-width: 320px)
+    and (max-device-width: 480px)
+    {
+        p{font-size: 1.3rem;}
+        h1 {font-size: 3.5rem;}
+        header h2 {font-size: 3.75rem;}
+}
+
+.gridimage{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
 }
