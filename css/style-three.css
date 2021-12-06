@@ -191,10 +191,17 @@ footer p{
         p{font-size: 1.3rem;}
         h1 {font-size: 3.5rem;}
         header h2 {font-size: 3.75rem;}
-}
+    }
 
 .gridimage{
     display: grid;
-    grid-gap: 10px;
+    grid-gap: 20px;
     grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+    margin-bottom: 10rem;
+    max-height: 360px;
+}
+
+.gridimage img{
+    height: 400px;
+    width: 360px;
 }
